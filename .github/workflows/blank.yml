@@ -1,10 +1,10 @@
 name: Scheduled Python Script
 on:
-  #push:
-    #branches:
-      #- main  # 每次推送到 main 分支時觸發
+  push:
+    branches:
+      - main  # 每次推送到 main 分支時觸發
   schedule:
-    - cron: '0/3 * * * *'
+    - cron: '* * * * *'
 
 jobs:
   run-python-script:
