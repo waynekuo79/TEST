@@ -22,4 +22,4 @@ jobs:
     - name: Install requests
       run: pip install requests
     - name: Run Python script
-      run: python testgithubaction.py  # 執行你的 Python 腳本
+      run: python test.py  # 執行你的 Python 腳本
